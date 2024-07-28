@@ -1,0 +1,151 @@
+.navbar-container{
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+
+}
+
+
+.menu{
+  
+  justify-content: right;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.logo img{
+  
+    height: 6rem;
+    width: 350px;
+    float: left;
+    margin-top: 10px;
+  
+    margin-left: 10px;
+  
+  }
+  .info{
+    display: flex;
+    background-color: rgb(249, 243, 243);
+    flex: 2;
+    padding: px;
+    justify-content: left;
+    
+    align-items: center;
+  }
+  
+  .blocks{
+    display: flex;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: rgb(15, 4, 4);
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+  }
+  .blocks:hover{
+    color: #0b0904;
+  }
+
+  .pgnm{
+    justify-content: center;
+    margin-left: 10%;
+  }
+
+  .nabar-right img {
+    justify-content: right;
+    width: 20px;
+    height: 20px;
+    list-style: none;
+    justify-content: right;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  
+
+
+  }
+
+.menu-{
+margin-left: 5rem;
+display: flex;
+list-style: none;
+
+
+}
+.m-{
+list-style: none;
+margin-left: px;
+}
+ 
+.blocks-{
+display: flex;
+margin: 0 15px;
+font-size: 1.5rem;
+color: rgb(9, 10, 10);
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-left: 14rem;
+font-size: xx-large;
+
+
+}
+
+.blocks--{
+display: flex;
+margin-left: 15px;
+font-size: 1.5rem;
+color: rgb(222, 15, 87);
+/* text-decoration-line: none; */
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+font-size: xx-large;
+
+}
+
+.li-{
+list-style: none;
+margin-left: 1rem;
+
+}
+
+a, a span {
+text-decoration: none;
+}
+
+.bt{
+display: flex;
+}
+
+.search-results {
+position: absolute;
+background-color: white;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: calc(100% - 40px);
+max-height: 200px;
+overflow-y: auto;
+z-index: 1000;
+}
+
+.search-result-item {
+padding: 10px;
+cursor: pointe;
+border-bottom: 1px solid #ddd;
+}
+
+.search-result-item:last-child {
+border-bottom: none;
+}
+
+.search-result-item:hover {
+background-color: #f0f0f0;
+}
+
+.sbt{
+cursor: pointer;
+}

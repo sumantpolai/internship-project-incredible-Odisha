@@ -1,0 +1,49 @@
+.card {
+    display: flex;
+    flex: 1;  
+    background-color: #e4e1e1;
+    color: black;
+    flex-direction: row; /* Uncommented to stack content vertically */
+    width: 300px; /* Adjusted for a more typical card width */
+    align-items: center; /* Center the content horizontally */
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px; /* Adjusted border radius for a smoother look */
+    object-fit: cover;
+    padding: 0px; /* Added padding for better spacing inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box shadow for a more prominent card effect */
+    margin: 20px; /* Added margin for spacing between cards */
+  }
+  
+  .card h2 {
+    color: rgb(158, 14, 14);
+    font-weight: bold;
+    margin-top: 15px; /* Added margin for better spacing */
+  }
+  
+  .card h3 {
+    color: black;
+    margin: 5% ; /* Added margin for better spacing */
+    justify-content: center;
+    text-align: center;
+    /* margin-left: 25%; */
+  }
+  
+  .image {
+    height:150px; /* Added 'px' to height */
+    width: 215px;
+    border-radius: 5px; /* Added border radius to match card style */
+    /* object-fit: cover; Ensure the image covers the area without stretching */
+  }
+  
+  .card a {
+    color: #fdfafa;
+    text-decoration: none;
+    background-color: rgb(13, 159, 207); /* Background color to match heading color */
+    padding: 10px 15px; /* Added padding for better spacing */
+    border-radius: 20px; /* Added border radius for smoother look */
+    margin-top: 10px; /* Added margin for spacing */
+    display: inline-block; /* Ensured the link is an inline-block */
+   margin-left: 27%;
+   margin-bottom: 1rem;
+  }

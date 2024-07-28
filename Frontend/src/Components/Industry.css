@@ -1,0 +1,37 @@
+.Natural-container {
+    position: relative;
+    padding: 20px;
+  }
+  
+  .Natural-video {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .Natural-container:hover .Natural-video {
+    transform: scale(1.05);
+  }
+  
+  .vdo-footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .vdo-footer p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+ 
+  
+  .paragraph-natural{
+    /* font-size: large;
+   justify-content: center; */
+   font-size: large;
+   margin: 10px 8px;
+   z-index: 3;
+  }

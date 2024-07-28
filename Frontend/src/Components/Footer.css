@@ -1,0 +1,134 @@
+.footer {
+    background-color: #0b3d6f;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    justify-content: space-between;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    display: flex;
+  }
+  
+ 
+  
+  .footer-links li {
+    margin: 5px 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .footer-section address {
+    font-style: normal;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  .footer-logo {
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .footer-logo img {
+    width: 150px;
+  }
+  
+  .se{
+    margin-left: 20rem;
+  }
+  .se-2{
+    margin-left: 13rem;
+
+  }
+  .socialicons{
+    display: flex;
+    /* justify-content:center; */
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  hr{
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  /* FooterLinks.css */
+
+.footer-lin {
+  background-color: #0b3d6f; /* Change this to match the exact color in your image if needed */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-links-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+
+.footer-links-container a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 14px;
+}
+
+.li-{
+  list-style: none;
+  margin-right: .5rem;
+}
